@@ -1,8 +1,8 @@
 "use client";
 
 import { useTranslations } from "next-intl";
-import { motion } from "framer-motion";
-import { ExternalLink, Github } from "lucide-react";
+import { motion, type Variants } from "framer-motion";
+import { ExternalLink } from "lucide-react";
 import Link from "next/link";
 import Image from "next/image";
 
@@ -30,7 +30,7 @@ export default function ProjectsPage() {
     },
   ];
 
-  const containerVariants = {
+  const containerVariants: Variants = {
     hidden: { opacity: 0 },
     show: {
       opacity: 1,
@@ -38,12 +38,16 @@ export default function ProjectsPage() {
     },
   };
 
-  const cardVariants = {
+  const cardVariants: Variants = {
     hidden: { opacity: 0, y: 40 },
     show: {
       opacity: 1,
       y: 0,
-      transition: { type: "spring", stiffness: 100, damping: 15 },
+      transition: {
+        type: "spring",
+        stiffness: 100,
+        damping: 15,
+      },
     },
   };
 
