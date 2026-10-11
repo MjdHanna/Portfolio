@@ -1,0 +1,61 @@
+{
+  "HomePage": {
+    "title": "Front-End Developer & Software Engineer",
+    "greeting": "Hello, I'm Majd"
+  },
+  "Navbar": {
+    "home": "Home",
+    "about": "About Me",
+    "services": "Services",
+    "projects": "Projects",
+    "contact": "Contact Me"
+  },
+  "Services": {
+    "title": "Engineered",
+    "highlight": "Services",
+    "subtitle": "Available for contract work and freelance projects — delivering scalable, production-ready web platforms with measurable business impact.",
+    "cta": "Request This Service",
+    "caseStudy": "Applied in:",
+    "Contract & Freelance": "Contract & Freelance"
+  },
+  "About": {
+    "title": "About",
+    "highlight": "Me",
+    "subtitle": "Software Engineer & Front-End Developer dedicated to crafting high-performance, elegant web systems.",
+    "bio1": "I'm Majd Hanna, a Software Engineer and Front-End Developer specializing in building robust, highly reactive user interfaces using Next.js, React, and TypeScript.",
+    "bio2": "I completed intensive software engineering internships at Focal X and Phoentiech, architecting scalable platforms across AI-driven solutions and multi-vendor e-commerce ecosystems with a strict focus on clean code and design patterns.",
+    "experience": "Internships & Milestones",
+    "focalx": "Focal X — AI Platform Development",
+    "phoentiech": "Phoentiech — Wishly Platform Engineering",
+    "skillsTitle": "Technical Proficiency"
+  },
+  "Skills": {
+    "title": "My Tech Universe",
+    "subtitle": "A constellation of languages, tools, and architectures I use to build extraordinary digital experiences."
+  },
+  "Contact": {
+    "title": "Let's Build Something",
+    "highlight": "Extraordinary.",
+    "subtitle": "Ready to turn your ideas into reality? Choose your preferred platform and let's start the conversation.",
+    "email": "Email Me",
+    "call": "Call Me"
+  },
+  "Projects": {
+    "title": "Portfolio",
+    "highlight": "Digital",
+    "subtitle": "A selection of projects I have developed, reflecting my passion for building interactive interfaces and high-performance, integrated systems.",
+    "visitSite": "Visit Site",
+    "wishly": {
+      "title": "Wishly Store",
+      "description": "An integrated platform for purchasing and sending gifts to friends and relatives for special occasions, featuring a seamless interactive interface and an exceptional user experience."
+    },
+    "learnova": {
+      "title": "Learnova Education",
+      "description": "An educational platform offering both free and paid courses. It features a smart system that triggers a quiz for the student after they complete 75% of the sessions, enabling them to earn a certificate of achievement."
+    },
+    "todo": {
+      "title": "Todo App",
+      "description": "An advanced daily task management app that records and categorizes tasks into completed and uncompleted items, serving as a precise daily log to track your productivity."
+    }
+  }
+}
