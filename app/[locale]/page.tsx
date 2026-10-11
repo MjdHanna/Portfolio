@@ -129,8 +129,8 @@ export default function Home() {
               download="Majd_Hanna_CV.pdf"
               className="group px-8 py-4 font-bold rounded-full bg-gray-100 dark:bg-white/5 text-gray-900 dark:text-white hover:!bg-blue-600 hover:!text-white dark:hover:!bg-blue-600 dark:hover:!text-white transition-all duration-300 hover:scale-105 active:scale-95 flex items-center gap-2 cursor-pointer shadow-md hover:shadow-blue-600/30"
             >
-              <Download className="w-5 h-5 text-gray-500 group-hover:text-blue-500 transition-colors" />
-              {isArabic ? "تحميل السيرة الذاتية" : "Download CV"}
+              <Download className="w-5 h-5 text-gray-500 dark:text-gray-300 group-hover:text-white transition-colors" />
+              <span>{isArabic ? "تحميل السيرة الذاتية" : "Download CV"}</span>
             </a>
           </motion.div>
         </div>
